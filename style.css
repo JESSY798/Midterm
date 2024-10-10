@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    background-color: #3B0404;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    display: block;
+    text-align: center;
+    padding: 1px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.section1{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-gap:7px;
+    padding: 7px;
+    background-color: #EED6D3;
+    border-radius: 15px;
+
+}
+.section1 > div{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 25px;
+}
+.section1 .profile img{
+    padding: 0px 20px;
+}
+.about{
+    margin-top: 50px;
+}
+.about p{
+    padding-left: 100px;
+}
+.section2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-gap:10px;
+    
+    background-color: #EED6D3;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section2 img{
+    width: 99%;
+}
+.section2 > div{
+    text-align: center;
+    padding: 20px 15px;
+    font-size: 20px;
+}
+.section3{
+    margin-top: 20px;
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-gap:10px;
+    padding: 15px;
+    row-gap: 5px!important;  
+    background-color: #EED6D3;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section4{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-gap:7px;
+    padding: 7px;
+    background-color: #EED6D3;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.section5{
+    margin-top: 20px; 
+    background-color: #EED6D3;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.subsection5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-gap:10px;
+    padding: 15px;
+    row-gap: 5px!important; 
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+.contact{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
